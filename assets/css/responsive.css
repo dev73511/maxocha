@@ -1,0 +1,58 @@
+@media screen and (min-width: 480px) {
+
+    .section-title h2,
+    .section-title .title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .section-title h2,
+    .section-title .title {
+        font-size: 50px;
+        line-height: 62px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .section-title h2,
+    .section-title .title {
+        font-size: 34px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .brand-logo {
+        width: 60%;
+    }
+
+    .backdropBlur {
+        backdrop-filter: blur(60px) brightness(1) contrast(1) hue-rotate(355deg);
+    }
+
+    .nav-link.btn-top-header{
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        right: -13px;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        left: -13px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .brand-logo {
+        width: 60%;
+    }
+
+    .backdropBlur {
+        backdrop-filter: blur(60px) brightness(1) contrast(1) hue-rotate(355deg);
+    }
+}
