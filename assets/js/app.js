@@ -3,15 +3,11 @@
 $(document).ready(function () {
     console.log("APP JS LOADED");
     
-    // window.addEventListener('load', AOS.refresh);
     AOS.init()
-
-    // $(window).load(function () {
-    //     setTimeout(function () {
-    //       AOS.init();
-    //     }, 1000);
-    // });
-
+    
+    $('.navbar-collapse.collapse').click(function(){
+        $('.navbar div').removeClass('show');
+    });  
 
 
     $('.benifitesSyncListImageSlider.owl-carousel').owlCarousel({
