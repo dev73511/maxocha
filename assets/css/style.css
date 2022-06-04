@@ -202,7 +202,7 @@ body {
 }
 
 .benifitesSyncListImageSlider.owl-theme .owl-dots .owl-dot span {
-    display: none;
+    display: block;
 }
 .benifitesSyncListImageSlider.owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 30px;
