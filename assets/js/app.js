@@ -25,7 +25,7 @@ $(document).ready(function () {
             0:{
                 items: 1,
                 margin: 0,
-                dots: true,
+                dots: false,
                 nav: true
             },
             768: {

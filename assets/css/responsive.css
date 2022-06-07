@@ -41,9 +41,11 @@
 
     .owl-carousel .owl-nav button.owl-next {
         right: -13px;
+        top: 47%;
     }
     .owl-carousel .owl-nav button.owl-prev {
         left: -13px;
+        top: 47%;
     }
 }
 
@@ -54,5 +56,9 @@
 
     .backdropBlur {
         backdrop-filter: blur(60px) brightness(1) contrast(1) hue-rotate(355deg);
+    }
+
+    .download-btn{
+        margin-bottom: 50px;
     }
 }
