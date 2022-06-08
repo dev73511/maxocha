@@ -175,7 +175,11 @@ video.video_el{
     width: 8%;
     padding: 5px;
 }
-
+.emoji2{
+    display: inline-block;
+    width: 4%;
+    padding: 5px;
+}
 
 .btn-primary-effect {
     font-weight: 900;

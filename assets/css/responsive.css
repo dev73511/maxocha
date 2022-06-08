@@ -39,6 +39,10 @@
         padding: 15px;
     }
 
+    .emoji, .emoji2{
+        width: 11%;
+    }
+
     .owl-carousel .owl-nav button.owl-next {
         right: -13px;
         top: 47%;
