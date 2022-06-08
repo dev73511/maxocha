@@ -28,6 +28,10 @@ body {
     position: relative;
 }
 
+.inline_block{
+    display: inline-block;
+}
+
 .section-padding {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -164,6 +168,12 @@ video.video_el{
     height: 80%;
     border-radius: 7px;
     box-shadow: 0 6px 8px rgb(65 62 101 / 30%);
+}
+
+.emoji{
+    display: inline-block;
+    width: 8%;
+    padding: 5px;
 }
 
 
